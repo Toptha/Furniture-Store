@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
         sidebar.style.opacity = '0';
         sidebar.style.right = '-300px';
     });
-
     ellipsisButton.addEventListener('mouseleave', () => {
         setTimeout(() => {
             if (!sidebar.matches(':hover')) {
@@ -40,4 +39,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 300); 
     });
 });
+
 

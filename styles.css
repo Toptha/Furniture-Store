@@ -2,7 +2,7 @@
     --color-bg: #ffffff;
     --color-text: #333333;
     --color-accent: #666666;
-    --font-sans: Jetbrains Mono, Menio, Monaco, 'Courier New', monospace, Arial, sans-serif;
+    --font: Jetbrains Mono, Menio, Monaco, 'Courier New', monospace, Arial, sans-serif;
 }
 
 * {
@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: var(--font-sans);
+    font-family: var(--font);
     line-height: 1.6;
     color: var(--color-text);
     background-color: var(--color-bg);
